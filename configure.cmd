@@ -18,3 +18,4 @@ set configure_dir=%~dp0
 set configure_dir=%configure_dir:~0,-1%
 python "%configure_dir%\configure.py" %* || ( exit /b )
 echo Configuration finished
+mm
